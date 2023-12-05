@@ -3,7 +3,7 @@ import { PhArrowUpRight, PhChatCenteredDots, PhLightning } from "@phosphor-icons
 </script>
 
 <template>
-  <div class="w-full mt-16 md:mt-32">
+  <div class="w-full mt-4 md:mt-16">
     <AppContainer>
       <div class="w-full flex flex-col items-center gap-10">
         <PhArrowUpRight class="text-slate-600" :size="32" />
@@ -16,10 +16,11 @@ import { PhArrowUpRight, PhChatCenteredDots, PhLightning } from "@phosphor-icons
         <span><PhChatCenteredDots class="w-5 h-5 shrink-0" /></span>
         <span class="">Speak to an expert</span>
         </NuxtLink>
+        <NuxtImg src="/images/hero.png" class="w-full md:w-3/4" />
       </div>
     </AppContainer>
   </div>
-  <div class="mt-20 md:mt-32 w-full bg-slate-800 py-6 md:py-8 gap-5">
+  <div class="mt-5 md:mt-20 w-full bg-slate-800 py-6 md:py-8 gap-5">
  <ClientOnly>
     <Vue3Marquee>
         <div v-for="x in 10" class="inline-flex px-5 items-center gap-2 text-green-500">

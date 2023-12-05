@@ -26,7 +26,7 @@ const ansIndex = ref(0);
 </script>
 
 <template>
-  <div id="faqs" class="w-full pt-20 md:pt-32">
+  <div id="faqs" class="w-full pt-20">
     <AppContainer>
       <div class="w-full">
         <h3 class="text-slate-900 text-xl md:text-[32px] text-center">
